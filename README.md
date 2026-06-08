@@ -1,5 +1,5 @@
 # EdTech-Concept-Proficiency-Analysis
-# Adaptive Learning Concept Difficulty Classification Using Hierarchical Clustering
+# Concept Difficulty categorization Using Hierarchical Clustering
 
 ## Project Overview
 
