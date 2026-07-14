@@ -72,8 +72,7 @@ Additional engineered features included:
 * Accuracy Ratio
 * Engagement Ratio
 * Speed Score
-* Difficulty Index
-* Month-over-Month Performance Growth
+
 
 ---
 
@@ -104,6 +103,14 @@ The clustering model groups concepts into three categories:
 | Cluster 3 | Hard (L3)        |
 
 A dendrogram was generated to visualize cluster formation and validate the hierarchical structure of concept difficulty levels.
+For the cases, where 2 clusters were having better performance over 3 cluster models, the proficiency levels were defined as follows:
+Cluster 0 shows concepts with better students average performance.
+
+Cluster 1 shows concepts with poor students average performance.
+
+L1 : Easy : 80 % concepts from cluster 0 and 20 % concepts from cluster 1.
+L2 : Moderate : 60 % concepts from cluster 0 and 40 % concepts from cluster 1.
+L3 : Hard : 20 % concepts from cluster 0 and 80 % concepts from cluster 1.
 
 ---
 
@@ -154,6 +161,8 @@ This represents a substantial improvement in cluster stability and interpretabil
 
 Using the generated difficulty classifications, adaptive learning interventions were simulated to personalize student learning paths.
 
+Disclaimer: This is a prototype designed to showcase the approach to a learning analytics business problem. The data used to demonstrate this prototype is entirely randomly generated and does not represent actual industrial data.
+
 Observed outcomes:
 
 * 40% improvement in average assessment scores for L1 students.
@@ -178,5 +187,4 @@ These results demonstrate the potential of data-driven curriculum adaptation to 
 * Incorporate student-level assessment records.
 * Develop concept recommendation engines.
 * Integrate real-time adaptive learning pathways.
-* Build Power BI dashboards for curriculum analytics.
-* Compare Hierarchical Clustering with K-Means and DBSCAN approaches.
+* Compare Hierarchical Clustering with other clustering approaches.
