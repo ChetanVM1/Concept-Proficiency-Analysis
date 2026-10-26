@@ -1,7 +1,7 @@
 # Concept-Proficiency-Analysis
 ## Concept Difficulty categorization Using Hierarchical Clustering
 
-## Project Overview
+### Project Overview
 
 Educational institutions often struggle to accurately assess the difficulty level of curriculum concepts and align learning content with student proficiency. This project aims to build an educational analytics framework that automatically classifies curriculum concepts into three difficulty levels—Easy (L1), Medium (L2), and Hard (L3)—using student assessment performance data.
 
@@ -11,7 +11,7 @@ Disclaimer: This demonstration uses simulated data solely to illustrate the mode
 
 ---
 
-## Business Problem
+### Business Problem
 
 In traditional learning environments, concept difficulty is often determined manually by subject matter experts. However, a concept perceived as easy by educators may actually be difficult for students based on assessment performance.
 
@@ -24,7 +24,7 @@ The objective of this project is to:
 
 ---
 
-## Dataset Design
+### Dataset Design
 
 A synthetic educational dataset was created to simulate a real-world EdTech learning platform.
 
@@ -58,7 +58,7 @@ Assessment coverage expanded progressively:
 
 ---
 
-## Features Used
+### Features Used
 
 For each concept in every monthly assessment, the following performance metrics were collected:
 
@@ -78,15 +78,15 @@ Additional engineered features included:
 
 ---
 
-## Methodology
+### Methodology
 
-### Data Preprocessing
+#### Data Preprocessing
 
 * Missing values were validated and handled.
 * Numerical features were standardized using StandardScaler.
 * Feature distributions were analyzed to ensure consistency across grades and subjects.
 
-### Hierarchical Clustering
+#### Hierarchical Clustering
 
 The project uses Agglomerative Hierarchical Clustering with Ward Linkage.
 
@@ -116,15 +116,15 @@ L3 : Hard : 20 % concepts from cluster 0 and 80 % concepts from cluster 1.
 
 ---
 
-## Statistical Validation
+#### Statistical Validation
 
 To evaluate the importance of predictive features, statistical testing was performed.
 
-### ANOVA Analysis
+#### ANOVA Analysis
 
 Analysis of Variance (ANOVA) was used to determine whether student grade level significantly influences concept performance metrics.
 
-### Cluster Quality Evaluation
+#### Cluster Quality Evaluation
 
 The clustering solution was evaluated using:
 
@@ -136,9 +136,9 @@ These metrics helped validate cluster cohesion and separation.
 
 ---
 
-## Results
+### Results
 
-### Difficulty Classification
+#### Difficulty Classification
 
 The model successfully classified 840 curriculum concepts into:
 
@@ -148,7 +148,7 @@ The model successfully classified 840 curriculum concepts into:
 
 based entirely on student performance patterns rather than manually assigned labels.
 
-### Improvement in Cluster Quality
+#### Improvement in Cluster Quality
 
 Through iterative feature engineering and model refinement, clustering quality improved significantly.
 
@@ -159,7 +159,7 @@ Through iterative feature engineering and model refinement, clustering quality i
 
 This represents a substantial improvement in cluster stability and interpretability over the course of the project.
 
-### Adaptive Learning Impact
+#### Adaptive Learning Impact
 
 Using the generated difficulty classifications, adaptive learning interventions were simulated to personalize student learning paths.
 
@@ -175,7 +175,7 @@ These results demonstrate the potential of data-driven curriculum adaptation to 
 
 ---
 
-## Key Learnings
+### Key Learnings
 
 * Applied unsupervised machine learning to solve an educational analytics problem.
 * Built an end-to-end workflow covering data generation, preprocessing, clustering, validation, and business impact analysis.
