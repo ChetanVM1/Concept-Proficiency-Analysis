@@ -1,4 +1,4 @@
-# EdTech-Concept-Proficiency-Analysis
+# Concept-Proficiency-Analysis
 # Concept Difficulty categorization Using Hierarchical Clustering
 
 ## Project Overview
