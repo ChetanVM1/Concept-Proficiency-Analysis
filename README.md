@@ -7,6 +7,7 @@ Educational institutions often struggle to accurately assess the difficulty leve
 
 The solution leverages Hierarchical Clustering to analyze concept-level learning patterns and generate data-driven difficulty classifications that can support adaptive learning systems and personalized education pathways.
 
+**Disclaimer:** This demonstration uses simulated data solely to illustrate the modelling approach and analytical methodology. No actual or confidential organisational data has been used.
 ---
 
 ## Business Problem
